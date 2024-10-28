@@ -12,4 +12,11 @@ class Category extends Model
     protected $fillabl =[
         'name'
     ];
+
+    public function product()
+    {
+     
+        return $this->hasMany(product::class);
+
+    }
 }
