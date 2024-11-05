@@ -23,13 +23,13 @@ class Product extends Model
        'description',
 ];
 
-public function category(): BelogsTo
+public function category()
 {
     return $this->belongsTo(category::class);
 }
 
 
-public function brand(): BelogsTo
+public function brand()
 {
     return $this->belongsTo(brand::class);
 }
