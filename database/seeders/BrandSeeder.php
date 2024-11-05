@@ -42,7 +42,12 @@ class BrandSeeder extends Seeder
             ['name'=> 'iQOO'],
             ['name'=> 'Lava'],
             ['name'=> 'Micromax'],
-            ['name'=> 'Fairphone']
+            ['name'=> 'Fairphone'],
+            ['name'=> 'Dell'],
+            ['name'=> 'HP'],
+            ['name'=> 'Bajaj'],
+            ['name'=> 'Usha'],
+            ['name'=> 'Whirlpool'],
         ];
         
         
